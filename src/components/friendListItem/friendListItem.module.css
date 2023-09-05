@@ -1,0 +1,40 @@
+.status {
+  border-radius: 50%;
+  display: flex;
+  height: 15px;
+  width: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.item {
+  padding: 7px;
+  display: flex;
+  border: 2px solid rgb(209, 206, 206);
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease;
+}
+
+.item:hover {
+  box-shadow: 15px 13px 20px -10px rgba(0, 0, 0, 0.75);
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.name {
+  margin-left: 15px;
+  font-weight: 700;
+  font-size: 16px;
+}

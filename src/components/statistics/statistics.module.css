@@ -1,0 +1,51 @@
+.statistics {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 276px;
+  border-radius: 5px;
+
+  border: 2px solid rgb(209, 206, 206);
+  transition: box-shadow 0.3s ease;
+}
+
+.statistics:hover {
+  box-shadow: 15px 13px 20px -10px rgba(0, 0, 0, 0.75);
+}
+
+.title {
+  font-family: 'Trebuchet MS';
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+
+  color: rgb(90, 90, 90);
+}
+
+.stat-list {
+  list-style: none;
+  display: flex;
+}
+
+.item {
+  width: 68px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid rgb(209, 206, 206);
+}
+
+.label {
+  margin-bottom: 10px;
+}
+
+.percentage {
+  font-weight: 600;
+}

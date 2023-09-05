@@ -1,13 +1,10 @@
-body {
-  font-family: 'Trebuchet MS';
-}
-
 ul {
   margin: 0;
   padding: 0;
 }
 
 .profile {
+  font-family: 'Trebuchet MS';
   border: 2px solid rgb(209, 206, 206);
   border-radius: 5px;
   width: 276px;
@@ -19,7 +16,7 @@ ul {
   align-items: center;
   flex-direction: column;
   color: #010101;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 
   transition: box-shadow 0.3s ease;
 }
